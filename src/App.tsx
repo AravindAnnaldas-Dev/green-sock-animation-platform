@@ -1,7 +1,14 @@
-import React from 'react';
+import React from "react";
+import GSAPbasic from "./GSAP/GSAPbasic";
+import GSAPtimeline from "./GSAP/GSAPtimeline";
 
 const App = () => {
-  return <div>App</div>;
+  return (
+    <>
+      <GSAPbasic />
+      <GSAPtimeline />
+    </>
+  );
 };
 
 export default App;
